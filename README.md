@@ -1,3 +1,3 @@
-# template.sh
+# dotfiles-arch
 
-POSIX shell script template
+Arch AMD cpu dotfiles

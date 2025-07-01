@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+set -eu
+yay
+yay -Yc
+fwupdmgr refresh
+fwupdmgr update
