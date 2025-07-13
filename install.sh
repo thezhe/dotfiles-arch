@@ -35,3 +35,5 @@ cp -frT "${install_script_dir}/home" "${HOME}"
 fwupdmgr refresh
 fwupdmgr update
 fwupdmgr security
+## Epilogue
+printf 'Restart to apply changes\n'
