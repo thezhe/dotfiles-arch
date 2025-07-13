@@ -11,7 +11,7 @@ gdm gnome-control-center gnome-logs \
 # base
 firefox gnome-disk-utility keepassxc less ufw \
 # audio
-easyeffects gnome-music qtractor \
+easyeffects rhythmbox qtractor \
 # dev
 base-devel cmake git osv-scanner shellcheck shfmt
 ## systemctl
