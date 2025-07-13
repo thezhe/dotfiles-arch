@@ -5,7 +5,7 @@ install_script_dir="$(cd -- "$(dirname -- "${0}")" && pwd -P)"
 sudo pacman -Syu
 sudo pacman -S \
 # firmware
-amd_ucode fwupd \ 
+amd_ucode fwupd \
 # GNOME
 gdm gnome-control-center gnome-logs \
 # base
@@ -29,6 +29,8 @@ makepkg -si
 yay -S visual-studio-code-bin
 ## rootfs
 sudo cp -frT "${install_script_dir}/rootfs" /
+## HOME
+cp -frT "${install_script_dir}/home" "${HOME}"
 ## fwupdmgr
 fwupdmgr refresh
 fwupdmgr update
