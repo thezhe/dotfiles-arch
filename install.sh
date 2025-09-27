@@ -9,7 +9,7 @@ amd_ucode fwupd \
 # GNOME
 gdm gnome-control-center gnome-logs \
 # base
-firefox gnome-disk-utility keepassxc less ufw \
+firefox gnome-disk-utility inetutils keepassxc less ufw \
 # audio
 easyeffects rhythmbox qtractor \
 # dev
