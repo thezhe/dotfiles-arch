@@ -16,7 +16,7 @@ easyeffects rhythmbox qtractor \
 base-devel cmake git osv-scanner shellcheck shfmt
 ## systemctl
 sudo systemctl enable --now gdm ufw
-sudo systemctl mask --now avahi-daemon avahi-daemon.socket iptables ip6tables sshd
+sudo systemctl mask --now avahi-daemon avahi-daemon.socket iptables ip6tables passim sshd
 ## ufw
 sudo ufw enable
 ## yay
