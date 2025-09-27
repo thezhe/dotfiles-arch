@@ -9,7 +9,7 @@ amd_ucode fwupd \
 # GNOME
 gdm gnome-control-center gnome-logs \
 # base
-firefox gnome-disk-utility inetutils keepassxc less ufw \
+firefox gnome-disk-utility keepassxc less ufw \
 # audio
 easyeffects rhythmbox qtractor \
 # dev
@@ -28,9 +28,9 @@ makepkg -si
 )
 yay -S visual-studio-code-bin
 ## rootfs
-sudo cp -frT "${install_script_dir}/rootfs" /
+sudo cp -frpT "${install_script_dir}/rootfs" /
 ## HOME
-cp -frT "${install_script_dir}/home" "${HOME}"
+cp -frpT "${install_script_dir}/home" "${HOME}"
 ## fwupdmgr
 fwupdmgr refresh
 fwupdmgr update
