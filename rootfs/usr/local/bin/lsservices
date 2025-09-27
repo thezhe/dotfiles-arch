@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-set -eu
-sudo systemctl list-units --type=service --all
