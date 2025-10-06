@@ -30,6 +30,6 @@ yay -S visual-studio-code-bin
 ## rootfs
 sudo cp -frT "${install_script_dir}/rootfs" /
 ## HOME
-cp -frpT "${install_script_dir}/home" "${HOME}"
+cp -frT "${install_script_dir}/home" "${HOME}"
 ## Epilogue
 printf 'Restart to apply changes\n'
