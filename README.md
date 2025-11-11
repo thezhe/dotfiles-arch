@@ -1,3 +1,3 @@
-# dotfiles-arch
+# dotfiles
 
-Arch AMD cpu dotfiles
+amd-arch dotfiles
