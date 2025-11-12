@@ -20,6 +20,6 @@ set -eu
 	)
 	yay -S visual-studio-code-bin
 	# rootfs
-	sudo cp -frT rootfs /
+	sudo cp -frT src/rootfs /
 	printf 'Restart to apply changes\n'
 )
