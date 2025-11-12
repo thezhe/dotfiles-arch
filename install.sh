@@ -6,10 +6,8 @@ set -eu
 	# pacman
 	sudo pacman -Syu
 	sudo pacman -S amd_ucode gdm gnome-control-center gnome-logs firefox gnome-disk-utility keepassxc less ufw base-devel cmake git shellcheck shfmt
-	# systemctl
 	sudo systemctl mask --now avahi-daemon.service avahi-daemon.socket avahi-dnsconfd.service bluetooth.service bluetooth.target iptables.service ip6tables.service passim.service printer.target ssh-access.target sshd.service sshd@.service sshd-unix-local.socket
 	sudo systemctl enable --now gdm ufw
-	# ufw
 	sudo ufw enable
 	# yay
 	(
