@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 set -eu
-sudo ss -nraep | grep -F -e "$(hostnamectl hostname)" -e '0.0.0.0' -e '::' -e '*:'
+lsports_hostname="$(hostnamectl hostname)"
+sudo ss -nraep | grep -F -e "${lsports_hostname}" -e '0.0.0.0' -e '::' -e '*:'

@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 set -eu
+# shellcheck disable=SC2068
 ls -ahl --color ${@}
